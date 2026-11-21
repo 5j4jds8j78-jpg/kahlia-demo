@@ -1,0 +1,1337 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apartments: search by parameters — Kakhlia Residence</title>
+<meta name="description" content="Two brick buildings, 11 and 12 floors, 183 apartments, car-free courtyard. Completion Q4 2027. From UAH 55,000/m².">
+<meta name="theme-color" content="#383e42">
+<meta property="og:title" content="Apartments: search by parameters — Kakhlia Residence">
+<meta property="og:description" content="Two brick buildings, 11 and 12 floors, 183 apartments, car-free courtyard. Completion Q4 2027. From UAH 55,000/m².">
+<meta property="og:type" content="website">
+<meta property="og:image" content="http://localhost/static/img/renders/hero.webp">
+<link rel="icon" href="/kahlia-demo/static/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/kahlia-demo/static/fonts/Lora-Var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/kahlia-demo/static/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/kahlia-demo/static/css/site.css">
+
+<script src="/kahlia-demo/static/js/static-shim.js"></script>
+</head>
+<body class="" data-lang="en">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/kahlia-demo/en/" aria-label="Kakhlia Residence — home">
+      <img class="brand-mark" src="/kahlia-demo/static/img/favicon.svg" alt="" width="30" height="30">
+      <span class="brand-name">Kakhlia</span>
+      <span class="brand-sub">residence<br>Lviv</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main menu">
+      
+        
+        <a href="/kahlia-demo/en/choose/" aria-current="page">Apartments</a>
+      
+        
+        <a href="/kahlia-demo/en/#location">Location</a>
+      
+        
+        <a href="/kahlia-demo/en/progress/">Construction</a>
+      
+        
+        <a href="/kahlia-demo/en/payment/">Payment</a>
+      
+        
+        <a href="/kahlia-demo/en/#docs">Documents</a>
+      
+        
+        <a href="/kahlia-demo/en/#contacts">Contacts</a>
+      
+    </nav>
+    <div class="header-tools">
+      <a class="phone" href="tel:+380320000000">+38 (032) 000-00-00</a>
+      <a class="lang" href="/kahlia-demo/apartments/" hreflang="uk" lang="uk" aria-label="Українська версія">UA</a>
+      <a class="btn btn-brick btn-sm" href="/kahlia-demo/en/choose/">Find an apartment</a>
+      <button class="menu-btn" type="button" aria-controls="nav" aria-expanded="false" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+
+
+
+<div class="wrap">
+  <div class="cat-head">
+    <h1 class="h1">Apartments</h1>
+    <div class="aside">
+      <div class="seg" role="navigation" aria-label="Browse by">
+        <a href="/kahlia-demo/en/choose/">On the facade</a>
+        <a href="#" data-view="table" class="on">Table</a>
+        <a href="#" data-view="cards" class="">Cards</a>
+      </div>
+    </div>
+  </div>
+  <div class="catalog">
+    <form class="filters" id="filters" method="get" action="/kahlia-demo/en/apartments/" data-filters
+          data-bounds="{&#34;amax&#34;: 107.7, &#34;amin&#34;: 26.4, &#34;fmax&#34;: 12, &#34;fmin&#34;: 1, &#34;pmax&#34;: 7793200, &#34;pmin&#34;: 1554700}">
+      <input type="hidden" name="view" value="table">
+      <fieldset class="fgroup">
+        <legend>Rooms</legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="rooms" value="0"><span>Studio</span></label><label class="chip"><input type="checkbox" name="rooms" value="1"><span>1</span></label><label class="chip"><input type="checkbox" name="rooms" value="2"><span>2</span></label><label class="chip"><input type="checkbox" name="rooms" value="3"><span>3</span></label><label class="chip"><input type="checkbox" name="rooms" value="4"><span>4+</span></label>
+        </div>
+      </fieldset>
+      <fieldset class="fgroup">
+        <legend>Building</legend>
+        <div class="chips"><label class="chip"><input type="checkbox" name="section" value="A"><span>A</span></label><label class="chip"><input type="checkbox" name="section" value="B"><span>B</span></label></div>
+      </fieldset>
+      
+      <fieldset class="fgroup" data-range="area" data-min="26" data-max="108" data-step="1">
+        <legend>Area, m²</legend>
+        <div class="range"><span class="track"></span><span class="fill"></span>
+          <input type="range" min="26" max="108" step="1" value="26" aria-label="Area, m²: from" data-lo>
+          <input type="range" min="26" max="108" step="1" value="108" aria-label="Area, m²: to" data-hi>
+        </div>
+        <div class="range-vals">
+          <input name="area_min" inputmode="numeric" value="" placeholder="26" aria-label="Area, m²: from">
+          <input name="area_max" inputmode="numeric" value="" placeholder="108" aria-label="Area, m²: to">
+        </div>
+      </fieldset>
+      
+      <fieldset class="fgroup" data-range="price" data-min="1500000" data-max="7800000" data-step="50000">
+        <legend>Price, ₴</legend>
+        <div class="range"><span class="track"></span><span class="fill"></span>
+          <input type="range" min="1500000" max="7800000" step="50000" value="1500000" aria-label="Price, ₴: from" data-lo>
+          <input type="range" min="1500000" max="7800000" step="50000" value="7800000" aria-label="Price, ₴: to" data-hi>
+        </div>
+        <div class="range-vals">
+          <input name="price_min" inputmode="numeric" value="" placeholder="1 500 000" aria-label="Price, ₴: from">
+          <input name="price_max" inputmode="numeric" value="" placeholder="7 800 000" aria-label="Price, ₴: to">
+        </div>
+      </fieldset>
+      
+      <fieldset class="fgroup" data-range="floor" data-min="1" data-max="12" data-step="1">
+        <legend>Floor</legend>
+        <div class="range"><span class="track"></span><span class="fill"></span>
+          <input type="range" min="1" max="12" step="1" value="1" aria-label="Floor: from" data-lo>
+          <input type="range" min="1" max="12" step="1" value="12" aria-label="Floor: to" data-hi>
+        </div>
+        <div class="range-vals">
+          <input name="floor_min" inputmode="numeric" value="" placeholder="1" aria-label="Floor: from">
+          <input name="floor_max" inputmode="numeric" value="" placeholder="12" aria-label="Floor: to">
+        </div>
+      </fieldset>
+      
+      <fieldset class="fgroup">
+        <legend>Status</legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="status" value="free" checked><span>Available</span></label><label class="chip"><input type="checkbox" name="status" value="booked"><span>Reserved</span></label><label class="chip"><input type="checkbox" name="status" value="sold"><span>Sold</span></label>
+        </div>
+      </fieldset>
+      <label class="check"><input type="checkbox" name="terrace" value="1"> With terrace or garden</label>
+      <div style="display:flex;gap:10px">
+        <noscript><button class="btn btn-sm" type="submit">Show</button></noscript>
+        <a class="btn btn-ghost btn-sm" href="/kahlia-demo/en/apartments/" data-reset>Reset</a>
+      </div>
+    </form>
+    <section aria-labelledby="found">
+      <div class="results-bar">
+        <p class="found" id="found" aria-live="polite" data-found
+           data-one="{n} apartment found" data-few="{n} apartments found" data-many="{n} apartments found"><b>85</b> apartments found</p>
+        <div style="display:flex;gap:10px;align-items:center">
+          <button type="button" class="btn btn-ghost btn-sm filters-toggle" aria-controls="filters" aria-expanded="false">Filters</button>
+          <label class="sort"><span class="visually-hidden">Sorting</span>
+            <select name="sort" form="filters" class="select">
+              
+              <option value="price_asc" selected>Cheapest first</option>
+              <option value="price_desc">Most expensive first</option>
+              <option value="area_asc">Smallest first</option>
+              <option value="area_desc">Largest first</option>
+              <option value="floor_asc">Lower floors first</option>
+              <option value="floor_desc">Higher floors first</option>
+              <option value="ppm_asc">Lowest price per m²</option>
+            </select></label>
+        </div>
+      </div>
+      <div class="results" data-results>
+
+
+<div style="overflow-x:auto">
+<table class="apt-table">
+  <thead><tr>
+    <th>No.</th><th>Bldg</th><th>Floor</th><th>Rooms</th>
+    <th class="r">m²</th><th class="r hide-m">Kitchen</th><th class="hide-m">Windows</th>
+    <th class="r hide-m">₴/m²</th><th class="r">Price</th><th>Status</th>
+  </tr></thead>
+  <tbody>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-04-7/" class="mono">25</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1">N</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1" class="mono">60 239</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1" class="price">1 590 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-7/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-03-5/" class="mono">14</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1" class="mono">3</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1" class="mono">60 470</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1" class="price">1 596 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-5/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-02-7/" class="mono">96</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1" class="mono">2</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1" class="mono">60 682</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1" class="price">1 602 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-7/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-04-3/" class="mono">21</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1" class="mono">61 159</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1" class="price">1 614 600 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-05-5/" class="mono">32</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1" class="mono">61 848</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1" class="price">1 632 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-5/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-04-7/" class="mono">114</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1" class="mono">62 080</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1" class="price">1 638 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-7/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-06-3/" class="mono">39</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1" class="mono">62 542</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1" class="price">1 651 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-07-5/" class="mono">50</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1" class="mono">7</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1" class="mono">63 231</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1" class="price">1 669 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-5/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-05-3/" class="mono">119</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1" class="mono">63 530</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1" class="price">1 677 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-08-3/" class="mono">57</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1" class="mono">63 920</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1" class="price">1 687 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-08-5/" class="mono">59</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1" class="mono">63 920</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1" class="price">1 687 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-5/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-07-7/" class="mono">141</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1" class="mono">7</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1" class="mono">64 182</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1" class="price">1 694 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-7/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-06-3/" class="mono">128</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1" class="mono">64 239</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1" class="price">1 695 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-10-7/" class="mono">79</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1">N</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1" class="mono">64 318</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1" class="price">1 698 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-7/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-10-3/" class="mono">75</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1" class="mono">65 299</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1" class="price">1 723 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-09-5/" class="mono">157</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1">N</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1" class="mono">65 580</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1" class="price">1 731 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-5/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-10-7/" class="mono">168</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1" class="mono">66 280</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1" class="price">1 749 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-7/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-11-3/" class="mono">173</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1">Studio</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1" class="mono">26,4</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1" class="mono">—</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1" class="mono">67 780</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1" class="price">1 789 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-03-2/" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1" class="mono">3</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1" class="mono">58 760</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1" class="price">2 180 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-04-2/" class="mono">20</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1" class="mono">59 431</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1" class="price">2 204 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-05-2/" class="mono">29</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1" class="mono">60 100</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1" class="price">2 229 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-04-2/" class="mono">109</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1" class="mono">61 051</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1" class="price">2 265 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-05-2/" class="mono">118</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1" class="mono">61 730</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1" class="price">2 290 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-06-2/" class="mono">127</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1" class="mono">62 420</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1" class="price">2 315 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-09-2/" class="mono">65</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1" class="mono">62 779</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1" class="price">2 329 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-10-2/" class="mono">74</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1">S</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1" class="mono">63 450</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1" class="price">2 354 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-09-2/" class="mono">154</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1" class="mono">64 480</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1" class="price">2 392 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-10-2/" class="mono">163</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1" class="mono">37,1</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1" class="mono">10,2</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1">E</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1" class="mono">65 170</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1" class="price">2 417 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-04-8/" class="mono">26</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1" class="mono">43,6</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1" class="mono">19,9</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1">N</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1" class="mono">57 970</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1" class="price">2 527 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-8/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-05-8/" class="mono">35</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1" class="mono">43,6</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1" class="mono">19,9</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1">N</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1" class="mono">58 619</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1" class="price">2 555 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-8/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-07-8/" class="mono">53</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1" class="mono">7</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1" class="mono">43,6</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1" class="mono">19,9</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1">N</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1" class="mono">59 929</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1" class="price">2 612 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-8/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-08-8/" class="mono">151</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1" class="mono">43,6</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1" class="mono">19,9</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1" class="mono">62 429</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1" class="price">2 721 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-8/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-11-8/" class="mono">178</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1">1-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1" class="mono">43,6</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1" class="mono">19,9</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1" class="mono">64 450</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1" class="price">2 810 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-8/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-03-9/" class="mono">18</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1" class="mono">3</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1" class="mono">56 190</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1" class="price">3 253 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-03-4/" class="mono">13</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1" class="mono">3</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1" class="mono">57 050</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1" class="price">3 303 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-03-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-02-9/" class="mono">98</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1" class="mono">2</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1" class="mono">57 250</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1" class="price">3 314 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-05-9/" class="mono">36</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1" class="mono">57 470</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1" class="price">3 327 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-03-9/" class="mono">107</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1" class="mono">3</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1" class="mono">57 910</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1" class="price">3 353 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-04-9/" class="mono">116</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1" class="mono">58 570</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1" class="price">3 391 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-02-6/" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1" class="mono">2</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1" class="mono">55 000</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1" class="price">3 393 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-02-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-06-4/" class="mono">40</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1" class="mono">59 000</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1" class="price">3 416 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-06-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-05-9/" class="mono">125</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1" class="mono">59 230</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1" class="price">3 429 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-08-9/" class="mono">63</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1" class="mono">59 401</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1" class="price">3 439 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-05-4/" class="mono">120</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1" class="mono">59 940</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1" class="price">3 470 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-09-9/" class="mono">72</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1" class="mono">60 040</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1" class="price">3 476 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-09-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-02-6/" class="mono">95</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1" class="mono">2</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1" class="mono">56 669</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1" class="price">3 496 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-02-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-06-4/" class="mono">129</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1" class="mono">60 599</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1" class="price">3 508 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-05-6/" class="mono">33</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1" class="mono">56 900</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1" class="price">3 510 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-10-9/" class="mono">81</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1" class="mono">60 680</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1" class="price">3 513 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-03-6/" class="mono">104</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1" class="mono">3</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1" class="mono">57 331</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1" class="price">3 537 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-03-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-08-9/" class="mono">152</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1" class="mono">61 200</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1" class="price">3 543 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-07-4/" class="mono">138</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1" class="mono">7</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1" class="mono">61 269</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1" class="price">3 547 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-07-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-01-2/" class="mono">87</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1" class="mono">1</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1">2-bed <span class="muted">· terrace</span></a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1" class="mono">60,3</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1" class="mono">20,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1" class="mono">58 851</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1" class="price">3 548 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-01-3/" class="mono">88</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1" class="mono">1</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1">2-bed <span class="muted">· terrace</span></a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1" class="mono">60,3</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1" class="mono">20,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1">W</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1" class="mono">58 851</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1" class="price">3 548 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-01-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-10-4/" class="mono">76</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1" class="mono">61 599</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1" class="price">3 566 600 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-09-9/" class="mono">161</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1" class="mono">61 860</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1" class="price">3 581 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-08-4/" class="mono">147</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1" class="mono">61 940</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1" class="price">3 586 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-07-6/" class="mono">51</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1" class="mono">7</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1" class="mono">58 170</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1" class="price">3 589 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-09-4/" class="mono">156</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1" class="mono">62 610</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1" class="price">3 625 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-08-6/" class="mono">60</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1" class="mono">58 801</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1" class="price">3 628 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-11-9/" class="mono">179</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1" class="mono">63 180</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1" class="price">3 658 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-9/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-10-4/" class="mono">165</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1" class="mono">57,9</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1" class="mono">12,1</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1" class="mono">63 269</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1" class="price">3 663 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-10-6/" class="mono">78</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1" class="mono">60 070</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1" class="price">3 706 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-10-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-08-6/" class="mono">149</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1" class="mono">60 590</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1" class="price">3 738 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-09-6/" class="mono">158</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1" class="mono">61 250</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1" class="price">3 779 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-11-4/" class="mono">85</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1" class="mono">61 630</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1" class="price">3 802 600 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-10-6/" class="mono">167</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1" class="mono">61 900</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1" class="price">3 819 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-11-6/" class="mono">176</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1" class="mono">62 549</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1" class="price">3 859 300 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-6/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-12-4/" class="mono">183</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1" class="mono">12</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1">2-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1" class="mono">61,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1" class="mono">21,8</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1" class="mono">63 211</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1" class="price">3 900 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-4/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-04-1/" class="mono">19</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1" class="mono">55 970</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1" class="price">4 740 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-04-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-05-1/" class="mono">28</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1" class="mono">56 600</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1" class="price">4 794 000 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-05-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-04-1/" class="mono">108</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1" class="mono">4</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1" class="mono">57 490</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1" class="price">4 869 400 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-04-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-07-1/" class="mono">46</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1" class="mono">7</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1" class="mono">57 860</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1" class="price">4 900 700 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-07-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-05-1/" class="mono">117</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1" class="mono">5</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1" class="mono">58 140</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1" class="price">4 924 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-05-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-08-1/" class="mono">55</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1">SW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1" class="mono">58 490</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1" class="price">4 954 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-08-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-06-1/" class="mono">126</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1" class="mono">6</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1" class="mono">58 790</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1" class="price">4 979 500 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-06-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-08-1/" class="mono">144</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1" class="mono">8</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1" class="mono">60 080</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1" class="price">5 088 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-08-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-11-2/" class="mono">83</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1" class="mono">60 380</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1" class="price">5 114 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-09-1/" class="mono">153</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1" class="mono">9</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1" class="mono">60 730</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1" class="price">5 143 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-09-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-10-1/" class="mono">162</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1" class="mono">10</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1" class="mono">61 380</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1" class="price">5 198 900 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-10-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-11-1/" class="mono">171</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1" class="mono">62 020</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1" class="price">5 253 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-11-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-12-2/" class="mono">181</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1" class="mono">12</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1">3-bed</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1" class="mono">84,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1" class="mono">23,5</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1" class="mono">62 669</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1" class="price">5 308 100 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-2/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/A-11-3/" class="mono">84</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1">A</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1" class="mono">11</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1">3-bed <span class="muted">· terrace</span></a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1" class="mono">107,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1" class="mono">32,0</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1">NE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1" class="mono">69 720</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1" class="price">7 508 800 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/A-11-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-12-3/" class="mono">182</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1" class="mono">12</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1">3-bed <span class="muted">· terrace</span></a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1" class="mono">107,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1" class="mono">32,0</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1">NW</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1" class="mono">71 500</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1" class="price">7 700 600 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-3/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  <tr class="is-free">
+    <td><a href="/kahlia-demo/en/apartments/B-12-1/" class="mono">180</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1">B</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1" class="mono">12</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1">3-bed <span class="muted">· terrace</span></a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1" class="mono">107,7</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1" class="mono">32,0</a></td>
+    <td class="hide-m"><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1">SE</a></td>
+    <td class="r hide-m"><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1" class="mono">72 360</a></td>
+    <td class="r"><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1" class="price">7 793 200 ₴</a></td>
+    <td><a href="/kahlia-demo/en/apartments/B-12-1/" tabindex="-1"><span class="badge free">Available</span></a></td>
+  </tr>
+  
+  </tbody>
+</table>
+</div>
+</div>
+      <p class="note">Prices as of 18 Nov 2026. Fixed in the contract on the payment date. Total area: rooms + balcony or terrace at 0.3.</p>
+    </section>
+  </div>
+</div>
+
+</main>
+
+
+<footer class="site-footer" id="contacts-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-name">Kakhlia</span>
+        <p class="muted" style="color:var(--on-dark-2);max-width:24em">Two brick buildings, 11 and 12 floors, 183 apartments, car-free courtyard. Completion Q4 2027. From UAH 55,000/m².</p>
+      </div>
+      <div class="foot-col wide">
+        <h4>Sales office</h4>
+        <p style="margin:0 0 6px">47A Naukova St, Lviv — pavilion at the site entrance</p>
+        <p style="margin:0 0 18px;color:var(--on-dark-2)">Entrance by the bus stop, 6 guest parking spaces</p>
+        <div class="hours"><span>Mon–Fri</span><span>09:00–19:00</span><span>Sat</span><span>10:00–17:00</span><span>Sun</span><span>by appointment</span></div>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+380320000000">+38 (032) 000-00-00</a> <span style="color:var(--on-dark-2)">· demo number</span></li>
+          <li><a href="mailto:sales@example.com">sales@example.com</a></li>
+          <li><a href="/kahlia-demo/en/#contacts">Book a viewing</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/kahlia-demo/en/choose/">Choose on the facade</a></li>
+          <li><a href="/kahlia-demo/en/apartments/">All apartments</a></li>
+          <li><a href="/kahlia-demo/en/payment/">Payment calculator</a></li>
+          <li><a href="/kahlia-demo/en/progress/">Construction progress</a></li>
+          <li><a href="/kahlia-demo/">Sales team login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Grunt Development LLC, EDRPOU 00000000 (demo)<br>Prices updated 18 Nov 2026. Not a public offer.</span>
+      <span>Renders, facade and layouts are original project graphics.<br>Fonts: Lora, Inter, IBM Plex Mono (OFL).</span>
+      <span><span class="demo-badge">Portfolio demo project. The company, complex, documents and contacts are fictional.</span><br>© 2026 Grunt Development</span>
+    </div>
+  </div>
+</footer>
+
+
+<div class="m-cta">
+  <a class="btn btn-ghost" href="tel:+380320000000">Call</a>
+  <a class="btn btn-brick" href="/kahlia-demo/en/choose/">Find an apartment</a>
+</div>
+
+<span class="demo-tag" aria-hidden="true">Portfolio demo project</span>
+<script src="/kahlia-demo/static/js/site.js" defer></script>
+
+</body>
+</html>

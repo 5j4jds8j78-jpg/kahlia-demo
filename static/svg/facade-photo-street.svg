@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2400 1400" class="facade facade--photo" role="img" preserveAspectRatio="xMidYMid meet">
+<title>ЖК «Кахля» — вид з вулиці, секції А і Б</title>
+<style>svg.facade .fl-hit{fill:transparent;stroke:transparent;cursor:pointer}svg.facade .fl.is-hover .fl-hit{fill:rgba(140,205,150,.55)!important;stroke:#fff!important;stroke-width:2;vector-effect:non-scaling-stroke}svg.facade .fl.is-empty.is-hover .fl-hit{fill:rgba(181,174,164,.35)!important}svg.facade .fl.is-empty .fl-hit{cursor:default}</style>
+<image href="/static/img/renders/picker-street.webp" x="0" y="0" width="2400" height="1400" preserveAspectRatio="none"/>
+<g class="fl" data-section="A" data-floor="2"><polygon class="fl-hit" points="869.8,1072.9 1743.5,1036.6 1742.1,970.5 870.9,989.1"/></g>
+<g class="fl" data-section="A" data-floor="3"><polygon class="fl-hit" points="870.9,989.1 1742.1,970.5 1740.7,904.8 871.9,905.9"/></g>
+<g class="fl" data-section="A" data-floor="4"><polygon class="fl-hit" points="871.9,905.9 1740.7,904.8 1739.4,839.4 873.0,823.2"/></g>
+<g class="fl" data-section="A" data-floor="5"><polygon class="fl-hit" points="873.0,823.2 1739.4,839.4 1738.0,774.3 874.0,741.0"/></g>
+<g class="fl" data-section="A" data-floor="6"><polygon class="fl-hit" points="874.0,741.0 1738.0,774.3 1736.6,709.6 875.1,659.4"/></g>
+<g class="fl" data-section="A" data-floor="7"><polygon class="fl-hit" points="875.1,659.4 1736.6,709.6 1735.3,645.2 876.1,578.3"/></g>
+<g class="fl" data-section="A" data-floor="8"><polygon class="fl-hit" points="876.1,578.3 1735.3,645.2 1733.9,581.1 877.1,497.7"/></g>
+<g class="fl" data-section="A" data-floor="9"><polygon class="fl-hit" points="877.1,497.7 1733.9,581.1 1732.6,517.4 878.2,417.6"/></g>
+<g class="fl" data-section="A" data-floor="10"><polygon class="fl-hit" points="878.2,417.6 1732.6,517.4 1731.3,453.9 879.2,338.0"/></g>
+<g class="fl" data-section="A" data-floor="11"><polygon class="fl-hit" points="879.2,338.0 1731.3,453.9 1656.1,385.4 921.0,272.6"/></g>
+<g class="fl" data-section="B" data-floor="1"><polygon class="fl-hit" points="385.2,1227.6 868.3,1193.5 869.8,1072.9 389.4,1092.9"/></g>
+<g class="fl" data-section="B" data-floor="2"><polygon class="fl-hit" points="389.4,1092.9 869.8,1072.9 870.9,989.1 392.3,999.4"/></g>
+<g class="fl" data-section="B" data-floor="3"><polygon class="fl-hit" points="392.3,999.4 870.9,989.1 871.9,905.9 395.2,906.5"/></g>
+<g class="fl" data-section="B" data-floor="4"><polygon class="fl-hit" points="395.2,906.5 871.9,905.9 873.0,823.2 398.1,814.3"/></g>
+<g class="fl" data-section="B" data-floor="5"><polygon class="fl-hit" points="398.1,814.3 873.0,823.2 874.0,741.0 401.0,722.8"/></g>
+<g class="fl" data-section="B" data-floor="6"><polygon class="fl-hit" points="401.0,722.8 874.0,741.0 875.1,659.4 403.8,631.9"/></g>
+<g class="fl" data-section="B" data-floor="7"><polygon class="fl-hit" points="403.8,631.9 875.1,659.4 876.1,578.3 406.6,541.7"/></g>
+<g class="fl" data-section="B" data-floor="8"><polygon class="fl-hit" points="406.6,541.7 876.1,578.3 877.1,497.7 409.4,452.1"/></g>
+<g class="fl" data-section="B" data-floor="9"><polygon class="fl-hit" points="409.4,452.1 877.1,497.7 878.2,417.6 412.2,363.2"/></g>
+<g class="fl" data-section="B" data-floor="10"><polygon class="fl-hit" points="412.2,363.2 878.2,417.6 879.2,338.0 415.0,274.8"/></g>
+<g class="fl" data-section="B" data-floor="11"><polygon class="fl-hit" points="415.0,274.8 879.2,338.0 880.2,258.9 417.7,187.1"/></g>
+<g class="fl" data-section="B" data-floor="12"><polygon class="fl-hit" points="417.7,187.1 880.2,258.9 801.5,176.7 487.4,122.7"/></g>
+</svg>
